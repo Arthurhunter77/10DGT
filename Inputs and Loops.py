@@ -6,7 +6,10 @@ v1.0'''
 #ask the user a question and store their answer in a variable
 #ask the use for their name and store it
 username = input("Kia ora! What is your name? ")
-print(username)
+#creates line break
+print()
+#\n also creates line break
+print(f"Nice to meet you, {username}.\n")
 
 #ask the user for two numbers and then add them together
 num1 = int(input("What is your first number? "))
